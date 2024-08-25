@@ -104,6 +104,7 @@
             </FrameLayout>
 
             <TextView
+                android:id="@+id/btnContinue"
                 android:layout_marginTop="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"

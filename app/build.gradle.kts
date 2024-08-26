@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.androidanhnhan"
-        minSdk = 16
+        minSdk = 21
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -26,6 +26,10 @@ android {
             )
         }
     }
+    buildFeatures {
+        viewBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8

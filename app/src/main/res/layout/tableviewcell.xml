@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_marginTop="16dp"
+        android:id="@+id/ivSelection"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ic_launcher_background"
+        />
+
+    <TextView
+        android:id="@+id/lblCredential"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Chứng thư số"
+        android:textFontWeight="@integer/material_motion_duration_medium_2"
+        android:gravity="center_vertical"
+        />
+
+</LinearLayout>

@@ -20,8 +20,6 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter()
-        maven { url "https://mvnrepository.com" }
-
     }
 }
 

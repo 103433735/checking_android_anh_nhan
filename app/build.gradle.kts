@@ -44,7 +44,6 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    implementation ("com.github.florent37:runtime-permission-kotlin:1.1.2")
 
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)

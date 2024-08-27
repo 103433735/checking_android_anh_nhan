@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AndroidAnhNhan"
         tools:targetApi="33">
         <activity
+            android:name=".CVIHomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".SelectCredentialList"
             android:exported="false" />
         <activity

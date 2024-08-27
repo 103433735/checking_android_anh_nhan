@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         val btnContinue: TextView
+        val btnCVI: TextView
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
@@ -27,5 +28,12 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(this, SelectCredentialList::class.java)
             startActivity(intent)
         }
+
+        btnCVI = findViewById(R.id.btnCVI)
+        btnCVI.setOnClickListener {
+            var intent = Intent(this, CVIHomeActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
